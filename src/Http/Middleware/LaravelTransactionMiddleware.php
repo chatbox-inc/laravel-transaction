@@ -15,7 +15,7 @@ class LaravelTransactionMiddleware
 
     public function handle($request, Closure $next)
     {
-        return $this->db->transaction(function($request, $next){
+        return $this->db->transaction(function()use($request, $next){
             return $next($request);
         });
     }
