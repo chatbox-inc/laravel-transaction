@@ -7,7 +7,9 @@
         }
     ],
     "autoload": {
-        "Chatbox\\LaravelTransaction": "./src"
+        "psr-4": {
+            "Chatbox\\LaravelTransaction": "./src"
+        }
     },
     "require": {},
     "require-dev": {
