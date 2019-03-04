@@ -1,0 +1,23 @@
+{
+    "name": "mkkn/laravel-transaction",
+    "authors": [
+        {
+            "name": "mikakane",
+            "email": "t.goto@chatbox-inc.com"
+        }
+    ],
+    "autoload": {
+        "Chatbox\\LaravelTransaction": "./src"
+    },
+    "require": {},
+    "require-dev": {
+        "laravel/laravel": "^5.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Chatbox\\LaravelTransaction\\LaravelTransactionServiceProvider"
+            ]
+        }
+    }
+}
