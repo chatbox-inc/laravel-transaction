@@ -1,5 +1,6 @@
 {
     "name": "chatbox-inc/laravel-transaction",
+    "license": "MIT",
     "authors": [
         {
             "name": "mikakane",

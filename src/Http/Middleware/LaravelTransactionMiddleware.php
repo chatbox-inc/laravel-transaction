@@ -8,10 +8,6 @@ class LaravelTransactionMiddleware
 {
     protected $db;
 
-    /**
-     * DBTransaction constructor.
-     * @param $db
-     */
     public function __construct(DatabaseManager $db)
     {
         $this->db = $db;
