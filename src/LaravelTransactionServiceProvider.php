@@ -3,6 +3,7 @@ namespace Chatbox\LaravelTransaction;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
+use Chatbox\LaravelTransaction\Http\Middleware\LaravelTransactionMiddleware;
 
 class LaravelTransactionServiceProvider extends ServiceProvider
 {
