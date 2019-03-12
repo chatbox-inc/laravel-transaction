@@ -7,7 +7,7 @@ This - Laravel Transaction provide Auto Transaction to your Laravel Application.
 
 ## Install
 
-Install via composer
+You can install via composer
 
 ```bash
 $ composer require chatbox-inc/laravel-transaction
